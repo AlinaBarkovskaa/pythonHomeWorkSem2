@@ -11,7 +11,7 @@ if(sum_number == product_number):
     print(sum_number//2, product_number//2)
 for i in range(sum_number-1):
     j = sum_number-i
-    if((sum_number==i+j) and (product_number==i*j)):          
+    if(product_number==i*j):          
         print(f'i = {i}, j = {j}')
         break
 
